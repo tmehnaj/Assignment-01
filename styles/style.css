@@ -175,11 +175,6 @@ main section {
     align-items: center;
 }
 
-/*  display: flex;
-    gap: 200px;
-    justify-content: space-between;
-    align-items: center; */
-
 .user-info-column {
     width: 50%;
 }
@@ -192,6 +187,7 @@ main section {
 
 .user-info form {
     font-family: "Inter", sans-serif;
+    margin: 70px 0;
 }
 
 .user-info label {
@@ -200,8 +196,7 @@ main section {
 }
 
 .user-info input[type="email"],
-input[type="text"],
-input[type="submit"],
+input[type="text"],input[type="submit"],
 textarea {
     font-weight: 400;
     font-size: 20px;
@@ -212,8 +207,9 @@ textarea {
     outline: none;
     margin-bottom: 20px;
     margin-top: 10px;
+    box-sizing: border-box; 
+    /* Button are border-box and input are content-box by default, that's why submit button box size does not match with input box */
 }
-
 /* footer styles */
 
 footer {
