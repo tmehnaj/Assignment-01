@@ -171,9 +171,11 @@ main section {
     margin: 0;
 }
 /* feedback section styles */
+
 .feedback-item-container{
     display: flex;
     gap: 20px;
+    margin-top: 50px;
 }
 
 .feedback-item{
@@ -183,9 +185,33 @@ main section {
     border-radius: 14px;
     box-shadow: 0 4px 50px #F2EDED;
 }
+.feedback-item-title{
+    font-weight: semibold;
+    font-size: 24px;
+    margin: 24px 0 10px 0;
+}
+
+.feedback-item-subtitle{
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 0 24px 0;
+}
 .feedback-item-user{
     display: flex;
-    gap: 6px;
+    gap: 12px;
+}
+
+.feedback-item-user-name{
+    font-weight: 600;
+    font-size: 20px;
+    color: #343341;
+    margin: 0;
+}
+.feedback-item-user-date{
+    font-weight: 300;
+    font-size: 18px;
+    color: #343341;
+    margin: 3px 0 0 0;
 }
 
 .feedback-item-user img{
