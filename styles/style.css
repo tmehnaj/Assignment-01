@@ -96,3 +96,106 @@ nav a{
     font-weight: bold;
     font-size: 65px;
 }
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* action section styles */
+
+.action{
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-item{
+    width: 50%;
+}
+
+.action-section-desc{
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 23px;
+    margin-top: 0px;
+}
+.action img{
+    border-radius: 48px;
+    max-width: 400px;
+}
+
+/* productive users section */
+
+.productive-users{
+    background-color: #E5E7FF;
+    text-align: center;
+    padding: 50px 120px;
+    border-radius: 24px;
+   
+}
+
+.productive-user-row{
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    text-align: center;
+    
+}
+
+.productive-users-data{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 40px 0 0 0;
+}
+
+.productive-users-data-desc{
+    font-size: 20px;
+    margin: 0;
+}
+
+/* user info styles */
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 115px;
+}
+
+.user-info-column{
+    width: 50%;
+}
+
+.user-info h3{
+    font-weight: bold;
+    font-size: 97px;
+    color: black;
+}
+
+.user-info form{
+    font-family: "Inter", sans-serif;
+}
+
+.user-info label{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.user-info input[type="email"],input[type="text"],input[type="submit"], textarea{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px 32px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
