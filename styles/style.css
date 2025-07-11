@@ -48,6 +48,7 @@
     box-shadow: 4px 4px 12px #4E47FF;
     border-bottom: 0.1px solid whitesmoke;
     border-right: 0.1px solid whitesmoke;
+    cursor: pointer;
 }
 
 .section-title {
@@ -272,13 +273,14 @@ footer {
     text-align: center;
     background-color: white;
     border-top: 1px solid rgba(0, 0, 0, 0.10);
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
 
 .footer-content {
     font-family: "Inter", sans-serif;
-    margin: 100px auto;
+    margin: 0 auto;
     max-width: 530px;
+    padding: 100px 0;
 }
 
 .footer-title {
@@ -292,6 +294,10 @@ footer li a {
     font-weight: 400;
     font-size: 18;
     color: #8987A1;
+}
+
+footer li a:hover{
+    cursor: pointer;
 }
 
 footer ul {
