@@ -26,6 +26,10 @@
     color: #252432;
 }
 
+.center-text{
+     text-align: center;
+}
+
 .btn {
     font-weight: bold;
     font-size: 16px;
@@ -166,7 +170,29 @@ main section {
     font-size: 20px;
     margin: 0;
 }
+/* feedback section styles */
+.feedback-item-container{
+    display: flex;
+    gap: 20px;
+}
 
+.feedback-item{
+    padding: 24px;
+    background-color: white;
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+    box-shadow: 0 4px 50px #F2EDED;
+}
+.feedback-item-user{
+    display: flex;
+    gap: 6px;
+}
+
+.feedback-item-user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 /* user info styles */
 .user-info{
     display: flex;
