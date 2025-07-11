@@ -1,31 +1,32 @@
-
 /* font-family for Railway font */
 
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* font-family for Inter font */
 
 .inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* shared styles */
 
-.primary-color{
+.primary-color {
     color: #4E47FF;
 }
-.text-color1{
+
+.text-color1 {
     color: #252432;
 }
-.btn{
+
+.btn {
     font-weight: bold;
     font-size: 16px;
     background-color: #4E47FF;
@@ -37,14 +38,14 @@
     border: 0.1px solid transparent;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #3b34ff;
     box-shadow: 4px 4px 12px #4E47FF;
     border-bottom: 0.1px solid whitesmoke;
-     border-right: 0.1px solid whitesmoke;
+    border-right: 0.1px solid whitesmoke;
 }
 
-.section-title{
+.section-title {
     font-weight: bold;
     font-size: 42px;
     color: #252432;
@@ -53,7 +54,7 @@
 
 /* bodyy styles */
 
-body{
+body {
     font-family: "Raleway", sans-serif;
     background-color: #F5F8FF;
     color: #252432;
@@ -61,94 +62,99 @@ body{
 
 /* header styles */
 
-header{
-     background-image: url("../Assets/Hero-bg.png");
-     background-repeat: no-repeat;
-     border: 1px solid transparent;
+header {
+    background-image: url("../Assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
 }
 
 /* navbar styles */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 150px;
 }
 
-.nav-title{
+.nav-title {
     font-family: "Inter", sans-serif;
     font-weight: 800;
     font-size: 34px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
 }
 
 /* banner styles  */
 
-.banner{
+.banner {
     max-width: 900px;
     text-align: center;
     margin: 155px auto 152px;
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 65px;
 }
 
 /* main styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-main section{
+
+main section {
     margin-top: 130px;
     margin-bottom: 130px;
 }
 
 /* action section styles */
 
-.action{
+.action {
     display: flex;
     gap: 200px;
     justify-content: space-between;
     align-items: center;
 }
-.action-item{
+
+.action-item {
     width: 50%;
 }
 
-.action-section-desc{
+.action-section-desc {
     font-weight: normal;
     font-size: 24px;
     margin-bottom: 23px;
     margin-top: 0px;
 }
-.action img{
+
+.action img {
     border-radius: 48px;
     max-width: 400px;
 }
 
 /* productive users section */
 
-.productive-users{
+.productive-users {
     background-color: #E5E7FF;
     text-align: center;
     padding: 50px 120px;
     border-radius: 24px;
-   
+
 }
 
-.productive-user-row{
+.productive-user-row {
     display: flex;
     align-items: center;
     gap: 160px;
     text-align: center;
-    
+
 }
 
-.productive-users-data{
+.productive-users-data {
     font-family: "Inter", sans-serif;
     font-weight: 800;
     font-size: 80px;
@@ -156,7 +162,7 @@ main section{
     margin: 40px 0 0 0;
 }
 
-.productive-users-data-desc{
+.productive-users-data-desc {
     font-size: 20px;
     margin: 0;
 }
@@ -164,30 +170,39 @@ main section{
 /* user info styles */
 .user-info{
     display: flex;
-    align-items: center;
     gap: 115px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.user-info-column{
+/*  display: flex;
+    gap: 200px;
+    justify-content: space-between;
+    align-items: center; */
+
+.user-info-column {
     width: 50%;
 }
 
-.user-info h3{
+.user-info h3 {
     font-weight: bold;
     font-size: 97px;
     color: black;
 }
 
-.user-info form{
+.user-info form {
     font-family: "Inter", sans-serif;
 }
 
-.user-info label{
+.user-info label {
     font-weight: 500;
     font-size: 18px;
 }
 
-.user-info input[type="email"],input[type="text"],input[type="submit"], textarea{
+.user-info input[type="email"],
+input[type="text"],
+input[type="submit"],
+textarea {
     font-weight: 400;
     font-size: 20px;
     padding: 20px 32px;
@@ -199,3 +214,44 @@ main section{
     margin-top: 10px;
 }
 
+/* footer styles */
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.footer-content {
+    font-family: "Inter", sans-serif;
+    margin: 100px auto;
+    max-width: 530px;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+.footer-subtitle,
+footer li a {
+    font-weight: 400;
+    font-size: 18;
+    color: #8987A1;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
